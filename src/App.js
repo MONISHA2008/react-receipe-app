@@ -9,7 +9,11 @@ const APP_MOREINFO = "https://swagger.io/.";
 
   return(
     <div className="App">
-<h1> Hello ReactApp </h1>
+      <form className="search-form">
+        <input className="search-bar" type="text"></input>
+        <button className="search-button" type="submit">SEARCH</button>
+
+      </form>
     </div>
 
 )  ;
